@@ -13,7 +13,7 @@ Improve my interface building skills, always trying to give that personal touch 
 - The project must be completed by 11:59 pm each Saturday. / O projeto deve ser concluído até as 23:59 de cada Sábado.
 
 # Projects / Projetos 💻
-- Week 01 - (Coming 🕘)
+<a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:6776595529594916864/" title="Week 01">Week 01 - UI League of Legends. ✅  </a> <br>
 - Week 02 - (Coming 🕘)
 - Week 03 - (Coming 🕘)
 - Week 04 - (Coming 🕘)
