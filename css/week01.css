@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ccc;
+}
+
+.box {
+  background-image: url(../assets/week01.jpg);
+  background-size: cover;
+  background-position: center left;
+  width: 800px;
+  height: 450px;
+}
+
+main.conteudo {background-color: #fff;}
+
+main.conteudo {display: flex; align-items: center; justify-content: space-between; flex-direction: column;}
+
+main.conteudo {}
+
+main.conteudo {}
+
+main.conteudo {}
