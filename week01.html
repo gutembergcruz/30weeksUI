@@ -13,22 +13,69 @@
 
 <body>
   <section>
-    <h1>30 days CSS challenge!</h1>
+    <!-- <h1>30 days CSS challenge!</h1> -->
     <div class="box">
+      <article class="modalConfig">
+        <div class="conteudoModal">
+          <div class="cont01">
+            <a href="">Terceiros</a>
+            <a href="">V26.0.3</a>
+          </div>
+          <div class="cont02">
+            <h3>Configurações</h3>
+            <div class="modalInput">
+              <span>Patchline atual</span>
+              <label for="">
+                <p>Live (BR)</p>
+                <img src="assets/arrow-down.svg" alt="">
+              </label>
+            </div>
+            <div class="modalInput">
+              <span>Idioma do jogo</span>
+              <label for="">
+                <p>Portugues</p>
+                <img src="assets/arrow-down.svg" alt="">
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="oBotaoFechar">
+          <a href="">
+            <img src="assets/close.svg" alt="">
+          </a>
+        </div>
+      </article>
       <main class="conteudo">
         <div class="container">
+          <img src="" alt="">
           <img src="assets/logo.png" alt="">
           <img src="assets/question.webp" alt="">
         </div>
         <div class="container">
-          <p>Insira sua Conta Riot</p>
+          <p>Fazer Login</p>
           <div class="input">
-            <input type="text" placeholder="Nome de Usuário" id="porNick">
+            <input id="inputUser" type="text" placeholder="Nome de Usuário" id="porNick">
             <!-- <label for="porNick">Nome do usuário</label> -->
           </div>
           <div class="input">
-            <input type="password" id="porSenha" placeholder="Senha">
+            <input id="inputPass" type="password" id="porSenha" placeholder="Senha">
             <!-- <label for="porSenha">Senkha</label> -->
+          </div>
+          <div class="social">
+            <a href="">
+              <img src="assets/facebook-circle.svg" alt="">
+            </a>
+            <a href="">
+              <img src="assets/google-g.svg" alt="">
+            </a>
+            <a href="">
+              <img src="assets/apple.svg" alt="">
+            </a>
+          </div>
+          <div class="logar">
+            <a href="" id="btnLogar" class="naoLogar">
+              <img src="assets/right-arrow.svg" alt="">
+            </a>
           </div>
           <div class="manter">
             <input type="checkbox" name="" id="">
@@ -40,8 +87,27 @@
           <a href="">Não consegue iniciar sessão?</a>
         </div>
       </main>
+      <aside class="controllers">
+        <div class="buttons">
+          <a href=""></a>
+          <a href="">
+            <img src="assets/question.svg" alt="">
+          </a>
+          <a href="">
+            <img src="assets/close.svg" alt="">
+          </a>
+        </div>
+        <div class="configs">
+          <a href="" id="abrirModal">
+            <img src="assets/gear.svg" alt="">
+          </a>
+        </div>
+      </aside>
     </div>
   </section>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/week01.js"></script>
 </body>
 
 </html>

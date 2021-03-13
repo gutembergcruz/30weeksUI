@@ -20,9 +20,13 @@ h1 {
 .box {
   background-image: url(../assets/week01.jpg);
   background-size: cover;
-  background-position: center left;
-  width: 900px;
+  background-position-x: 250px;
+  width: 950px;
   height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
 }
 
 main.conteudo {
@@ -33,7 +37,7 @@ main.conteudo {
   width: 250px;
   background-color: #fff;
   padding: 35px;
-  height: 450px;
+  height: 550px;
 }
 
 main.conteudo .container:nth-of-type(1) {
@@ -43,12 +47,17 @@ main.conteudo .container:nth-of-type(1) {
   width: 100%;
 }
 
-main.conteudo .container:nth-of-type(1) img:nth-of-type(1) {
-  width: 50px;
+main.conteudo .container:nth-of-tFype(1) img:nth-of-type(1) {
+  width: 10px;
   display: block;
 }
 
 main.conteudo .container:nth-of-type(1) img:nth-of-type(2) {
+  width: 50px;
+  display: block;
+}
+
+main.conteudo .container:nth-of-type(1) img:nth-of-type(3) {
   width: 10px;
   display: block;
 }
@@ -60,6 +69,8 @@ main.conteudo .container:nth-of-type(2) {
 main.conteudo .container:nth-of-type(2) p {
   font-size: 20px;
   margin-bottom: 30px;
+  text-align: center;
+  font-weight: 600;
 }
 
 .input {
@@ -71,14 +82,14 @@ main.conteudo .container:nth-of-type(2) p {
 
 .input input::-webkit-input-placeholder {
   text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 700;
+  font-size: 10px;
+  font-weight: 800;
   color: #999DA0;
   position: absolute;
   top: 15px;
-  left: 10px;
+  left: 15px;
   cursor: text;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 .input input {
@@ -100,7 +111,7 @@ main.conteudo .container:nth-of-type(2) p {
 }
 
 .input input:focus::-webkit-input-placeholder {
-  font-size: 9px;
+  font-size: 8px;
   top: 5px;
   left: 10px;
 }
@@ -137,6 +148,99 @@ input[type=checkbox]:checked:after {
   left: 4px;
 }
 
+.social {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.social a {
+  width: 30%;
+  border-radius: 5px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+
+.social a img {
+  width: 15px;
+  height: 15px;
+}
+
+.social a:nth-of-type(1) {
+  background-color: #1877F2;
+}
+
+.social a:nth-of-type(2) {
+  background-color: #fff;
+  border: 2px solid #F3F3F3;
+}
+
+.social a:nth-of-type(3) {
+  background-color: #000;
+}
+
+.social a:nth-of-type(1):hover {
+  background-color: #3387f7;
+}
+
+.social a:nth-of-type(2):hover {
+  background-color: rgb(240, 240, 240);
+  border: 2px solid #F3F3F3;
+}
+
+.social a:nth-of-type(3):hover {
+  background-color: rgb(53, 53, 53);
+}
+
+.logar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.logar a {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #D13639;
+  border: 2px solid #D13639;
+  transition: .2s;
+}
+
+.logar a:hover {
+  background-color: #e95759;
+  border-color: #e95759;
+}
+
+.logar a img {
+  width: 30px;
+  height: 30px;
+}
+
+.naoLogar {
+  background-color: #fff !important;
+  border-color: #E8E8E8 !important;
+  cursor: default;
+}
+
+.naoLogar:hover {
+  background-color: #fff !important;
+  border: 2px solid #E8E8E8 !important;
+  cursor: default;
+}
+
+/*==========*/
+
 .manter {
   margin-top: 20px;
 }
@@ -146,11 +250,230 @@ input[type=checkbox]:checked:after {
   font-size: 13px;
 }
 
-main.conteudo .container:nth-of-type(3) {width: 100%;}
+main.conteudo .container:nth-of-type(3) {
+  width: 100%;
+}
 
 main.conteudo .container:nth-of-type(3) a {
-  color: #999DA0; text-decoration: none; font-size: 13px; text-align: left;
+  color: #999DA0;
+  text-decoration: none;
+  font-size: 13px;
+  text-align: left;
 }
-main.conteudo .container:nth-of-type(3) a:hover{
-color: #727374;
+
+main.conteudo .container:nth-of-type(3) a:hover {
+  color: #727374;
+}
+
+/*DIREITA*/
+
+.controllers {
+  height: 618px;
+  padding: 0px 10px;
+  width: 100px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.controllers .buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.controllers .buttons a:nth-of-type(1) {
+  position: relative;
+}
+
+.controllers .buttons a:nth-of-type(1)::after {
+  display: block;
+  position: absolute;
+  width: 50%;
+  height: 2px;
+  background-color: #C7C7C7;
+  content: '';
+  bottom: 30%;
+}
+
+.controllers .buttons a {
+  width: 33.3%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  transition: .2s;
+}
+
+.controllers .buttons a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.controllers .buttons a img {
+  width: 10px;
+  height: 10px;
+}
+
+.configs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 30px;
+}
+
+.configs a {
+  background-color: rgba(94, 94, 94, 0.5);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+
+.configs a:hover {
+  background-color: rgba(54, 54, 54, 0.5);
+}
+
+.configs a img {
+  width: 20px;
+  height: 20px;
+}
+
+/*MODAL CONFIG*/
+
+.modalConfig {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../assets/week01.jpg);
+  background-size: cover;
+  background-position-x: 250px;
+}
+
+.modalConfig .oBotaoFechar {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.modalConfig .oBotaoFechar:hover {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+.modalConfig .oBotaoFechar a {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalConfig .oBotaoFechar a img {
+  width: 30px;
+  height: 30px;
+}
+
+.modalConfig .conteudoModal {
+  background-color: #111111;
+  z-index: 1;
+  display: flex;
+  width: 80%;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.modalConfig .conteudoModal .cont01 {
+  width: 50%;
+}
+
+.modalConfig .conteudoModal .cont02 {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 200px;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.modalConfig .conteudoModal .cont02 h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.conteudoModal .modalInput {
+  width: 70%;
+  margin-top: 20px;
+}
+
+.conteudoModal .modalInput span {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #fff;
+}
+
+.conteudoModal .modalInput label {
+  margin-top: 5px;
+  width: 100%;
+  background-color: #232323;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 25px;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.conteudoModal .modalInput label:hover {
+  background-color: #414141;
+}
+
+.conteudoModal .modalInput label p {
+  color: #fff;
+}
+
+.conteudoModal .modalInput label img {
+  width: 10px;
+  height: 10px;
+}
+
+.cont01 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 90%;
+  padding: 20px;
+}
+
+.cont01 a {
+  text-decoration: none;
+  color: #ccc;
+  text-transform: uppercase;
+  font-size: 8px;
+}
+.cont01 a:hover{
+color: #666;
 }
