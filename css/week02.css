@@ -1,8 +1,11 @@
 .box {
   width: 1000px;
   height: auto;
-  /* margin: 0 auto; */
-position: relative;
+  margin: 0 auto;
+  margin-top: 30px;
+  position: relative;
+  /* background: url(../assets/week02/back.jpg); */
+  overflow: hidden;
 }
 
 .select {
@@ -11,6 +14,7 @@ position: relative;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
+  z-index: 10;
 }
 
 .select main {
@@ -20,38 +24,99 @@ position: relative;
   width: 100%;
 }
 
-.select main div {
-  background-color: blue;
-  width: 400px;
+#tela1 {
+  background: url(../assets/week02/01.png);
+  width: 600px;
   height: 500px;
+  background-size: cover;
+  background-position: right top;
 }
 
-.select aside{
-display: flex;
-align-items: center;
-justify-content: space-around;
-flex-direction: column;
-position: absolute;
-bottom: 0;
+.select aside {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
 }
 
-.select aside div{
-display: flex;
-align-items: center;
-justify-content: space-between;
+.select aside div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.select aside div span{
-background-color: red;
-width: 70px;
-height: 90px;
-margin: 5px;
-cursor: pointer;
+.select aside div label {
+  width: 70px;
+  height: 90px;
+  margin: 5px;
+  cursor: pointer;
+  border: 5px solid transparent;
+transition: 0.2s;
+}
+
+.select aside div label img{
+background: rgba(255, 175, 75, 1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 175, 75, 1) 0%, rgba(255, 146, 10, 1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 175, 75, 1)), color-stop(100%, rgba(255, 146, 10, 1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 175, 75, 1) 0%, rgba(255, 146, 10, 1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(255, 175, 75, 1) 0%, rgba(255, 146, 10, 1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 175, 75, 1) 0%, rgba(255, 146, 10, 1) 100%);
+  background: radial-gradient(ellipse at center, rgba(255, 175, 75, 1) 0%, rgba(255, 146, 10, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a', GradientType=1);
 }
 
 /*Troca de fundo*/
 
-.select aside div:first-child span:nth-of-type(1):hover ~  .select main div:first-child{
-background-color: gray;
+.select aside div label:hover {
+  border-color: rgba(65, 114, 219,0.3)
 }
 
+.Oselecionado {
+  border-color: rgb(65, 114, 219) !important;
+  position: relative;
+}
+
+.Oselecionao::after {}
+
+label.Oselecionado::after {
+  content: 'P 1';
+  background-color: rgb(65, 114, 219);
+  width: 50%;
+  height: 20%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.fundo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -20%;
+  left: -20%;
+  z-index: -1;
+}
+
+.nomeSelecionado{
+background-color: rgb(65, 114, 219);
+position: absolute;
+width: 200px;
+height: 50px;
+bottom: 15%;
+left: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.nomeSelecionado p{
+color: #fff;
+text-align: center;
+font-size: 35px;
+text-transform: uppercase;
+}
