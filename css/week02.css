@@ -1,0 +1,57 @@
+.box {
+  width: 1000px;
+  height: auto;
+  /* margin: 0 auto; */
+position: relative;
+}
+
+.select {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.select main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.select main div {
+  background-color: blue;
+  width: 400px;
+  height: 500px;
+}
+
+.select aside{
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: column;
+position: absolute;
+bottom: 0;
+}
+
+.select aside div{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.select aside div span{
+background-color: red;
+width: 70px;
+height: 90px;
+margin: 5px;
+cursor: pointer;
+}
+
+/*Troca de fundo*/
+
+.select aside div:first-child span:nth-of-type(1):hover ~  .select main div:first-child{
+background-color: gray;
+}
+
