@@ -1,0 +1,9 @@
+.box {
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 30px;
+  position: relative;
+  /* background: url(../assets/week02/back.jpg); */
+  overflow: hidden;
+}
