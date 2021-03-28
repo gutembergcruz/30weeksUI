@@ -15,7 +15,7 @@ Improve my interface building skills, always trying to give that personal touch 
 # Projects / Projetos 💻
 <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:6776595529594916864/" title="Week 01">Week 01 - UI League of Legends. ✅  </a> <br>
 <a href="https://www.linkedin.com/feed/update/urn:li:activity:6779092716031680512/" title="Week 02">Week 02 - Select your character. ✅  </a> <br>
-- Week 03 - (Coming 🕘)
+<a href="https://www.linkedin.com/feed/update/urn:li:activity:6781731410744020992/" title="Week 03">Week 03 - Landing page Mario Galaxy. ✅  </a> <br>
 - Week 04 - (Coming 🕘)
 - Week 05 - (Coming 🕘)
 - Week 06 - (Coming 🕘)
