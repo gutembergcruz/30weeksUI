@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+section {
+  width: 900px;
+  height: 600px;
+  background-image: url(../assets/week05/bg.jpg);
+  background-size: 100%;
+  background-position: top center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav a {
+  color: rgba(137, 198, 255, 0.6);
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 7px;
+  font-size: 27px;
+  margin: 10px 0px;
+  position: relative;
+}
+
+nav a:hover {
+  color: rgba(137, 198, 255, 1);
+}
+
+.cruz {
+  width: 35px;
+  position: absolute;
+  left: -50px;
+  top: -5px;
+}
+
+aside {
+  width: 900px;
+  height: 600px;
+  background-image: url(../assets/week05/bg2.jpg);
+  background-size: 100%;
+  background-position: top center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  display: none;
+}
