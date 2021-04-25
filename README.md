@@ -18,7 +18,7 @@ Improve my interface building skills, always trying to give that personal touch 
 <a href="https://www.linkedin.com/feed/update/urn:li:activity:6781731410744020992/" title="Week 03">Week 03 - Landing page Mario Galaxy. ✅  </a> <br>
 <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:6784279916436369408/" title="Week 04">Week 04 - Megaman X Menu. ✅  </a> <br>
 <a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:6786783416542142464/" title="Week 05">Week 05 - Menu GTA SanAndreas. ✅  </a> <br>
-- Week 06 - (Coming 🕘)
+<a href="https://www.linkedin.com/feed/update/urn:li:activity:6789355820535607296/" title="Week 06">Week 06 - Gris Menu. ✅  </a> <br>
 - Week 07 - (Coming 🕘)
 - Week 08 - (Coming 🕘)
 - Week 09 - (Coming 🕘)
