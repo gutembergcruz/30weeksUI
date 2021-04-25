@@ -1,0 +1,65 @@
+body {
+  background-color: #262C36;
+}
+
+header {
+  width: 100%;
+  padding: 0 10%;
+}
+header nav{
+padding: 15px 0px;
+}
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+margin-right: 50px;
+}
+section{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+section h1{
+color: rgb(211, 18, 76);
+font-size: 55px;
+text-transform: uppercase;
+font-weight: 700;
+}
+section h1 span{
+color: rgb(29, 71, 179);
+font-weight: 300;
+font-size: 45px;
+}
+section p{
+color: #fff;
+font-weight: 300;
+margin: 20px 0px;
+}
+section a{
+background-color: rgb(211, 18, 76);
+width: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+text-transform: uppercase;
+height: 50px;
+text-decoration: none;
+border-radius: 75px;;
+}
+
+main{
+  margin-left: 10%;
+  width: 500px;
+}
+aside{
+background-image: url(../assets/week07/bg.svg);
+background-size: cover;
+background-position: left center;
+width: 900px;
+}
+aside img{
+width: 400px;
+margin-left: 300px;
+}
